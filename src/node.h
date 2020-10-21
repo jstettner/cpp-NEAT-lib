@@ -1,3 +1,6 @@
+#ifndef _NODE
+#define _NODE
+
 namespace NEAT {
 	class Node {
 	public:
@@ -5,3 +8,6 @@ namespace NEAT {
 		Node(int id);
 	};
 }
+
+#endif
+
